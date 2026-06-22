@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pydoclint
-  version: "0.8.6"
+  version: "0.8.7"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pydoclint-${{ version }}.tar.gz
-  sha256: cd4a99d2bbd25b1ed47baf8ed12aa169982a14fd4071dfbd2cc09f8c04895ae4
+  sha256: 1ce5055dfdaf2bc3c999d3ffd5494556b903b7090bb5fadac90819107f90629b
 
 build:
   number: 0

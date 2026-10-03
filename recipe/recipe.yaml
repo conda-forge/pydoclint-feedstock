@@ -31,7 +31,6 @@ requirements:
     - python >=${{ python_min }}
     - click >=8.1.0
     - docstring_parser_fork ==0.0.16
-    - tomli >=2.0.1
 
 tests:
   - python:

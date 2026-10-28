@@ -2,15 +2,15 @@ schema_version: 1
 
 context:
   name: pydoclint
-  version: "0.11.1"
+  version: "0.12.0"
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/3b/e4/55ec2c30da84f284a8e8361da896de63df5f9610533d21c08c6297dab68b/pydoclint-${{ version }}.tar.gz
-  sha256: eab39580102312241ec71ef9fc4d7994b225e65ad71205c511557c4b928ed13e
+  url: https://files.pythonhosted.org/packages/9b/f7/ae03ad83f47dfee8a468544e4b77b254940299b15f9710e00450a5034729/pydoclint-${{ version }}.tar.gz
+  sha256: ac061ae24381547e41d5a45044a1f88c87a54541b67ec959bd5160c69256482c
 
 build:
   number: 0
